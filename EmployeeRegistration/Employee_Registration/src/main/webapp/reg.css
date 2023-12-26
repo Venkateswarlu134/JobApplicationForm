@@ -1,0 +1,48 @@
+@charset "ISO-8859-1";
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.fromerror{
+	color:red
+}
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+.fromdesign
+            {
+                font-size:20px;
+               
+                background-color: #7e8d29;
+            }
+            .formdesign input{
+                border:1px solid lightgreen;
+                background-color:lavender;
+                border-radius:4px;
+                font-size:15px;margin:14px;
+            }
