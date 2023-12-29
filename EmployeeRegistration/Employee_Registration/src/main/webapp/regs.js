@@ -11,6 +11,9 @@ function seterror(id,error){
     element=document.getElementById(id);
     element.getElementsByClassName('fromerror')[0].innerHTML=error;
 }
+function resetForm(){
+		document.getElementById('surveyForm').reset();
+	}
 function validateForm(){
     var returnval=true;
     clearErrors();
