@@ -12,7 +12,7 @@ function seterror(id,error){
     element.getElementsByClassName('fromerror')[0].innerHTML=error;
 }
 function resetForm(){
-		document.getElementById('surveyForm').reset();
+		document.getElementById('empreg').reset();
 	}
 function validateForm(){
     var returnval=true;
