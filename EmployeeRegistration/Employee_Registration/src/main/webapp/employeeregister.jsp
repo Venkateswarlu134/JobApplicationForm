@@ -108,7 +108,7 @@
 					<td><input type="file" name="file" required/></td>
 				</tr>
 				<tr>
-					<td><button type="reset" value="Reset" > Clear </button></td>
+					<td><button type="reset" value="Reset" onclick="resetForm()" > Clear </button></td>
 					<td><button type="submit" value="Submit" > Submit </button></td>
 				</tr>
 			</table>
